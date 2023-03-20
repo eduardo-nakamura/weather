@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  weatherApiBaseUrl: 'https://api.open-meteo.com/v1/forecast?latitude=-23.55&longitude=-46.64&hourly=temperature_2m,relativehumidity_2m,windspeed_10m&daily=temperature_2m_max,temperature_2m_min&forecast_days=1&timezone=America%2FSao_Paulo&current_weather=true',
+  // XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
+  // XRapidAPIHostHeaderValue: 'open-weather13.p.rapidapi.com',
+  // XRapidAPIKeyHeaderName: 'X-RapidAPI-Key',
+  // XRapidAPIKeyHeaderValue: 'fd8aebff94mshc8f6abdcdefdf33p11d954jsn13874c8e1d59',
 };
 
 /*
